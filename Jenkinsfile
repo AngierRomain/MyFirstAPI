@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage('build') {
             steps {
-                sh 'curl http://127.0.0.1:8081/blog/'
+                sh 'curl http://127.0.0.1:8081/blog/ -UseBasicParsing'
             }
         }
     }
