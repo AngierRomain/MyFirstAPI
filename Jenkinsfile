@@ -4,7 +4,6 @@ pipeline {
         stage('build') {
             steps {
                 sh 'mvn --version'
-                echo 'Mec ya pas de bugs ca marche tkt'
             }
         }
     }
