@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage('build') {
             steps {
-                sh 'curl http://localhost:8080/blog/'
+                sh 'curl http://localhost:8081/blog/'
             }
         }
     }
