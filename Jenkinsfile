@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage('build') {
             steps {
-                sh 'mvn --version'
+                sh 'curl http://127.0.0.1:8080/blog/'
             }
         }
     }
